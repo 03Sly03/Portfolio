@@ -4,8 +4,19 @@
   "description": "Mon portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "node-sass scss/main.scss css/style.css && node-sass --watch scss/main.scss css/style.css",
+    "dev": "concurrently live-server \"npm run sass\"",
+    "build": "node-sass scss/main.scss css/style.css && postcss css/style.css --replace"
   },
   "author": "Slimane",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "concurrently": "^6.0.2",
+    "cssnano": "^5.0.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.10",
+    "postcss-cli": "^8.3.1"
+  }
 }

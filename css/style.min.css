@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  width: 100%;
+  height: 50%;
+  border: 2px solid blue;
+  font-family: "Zen Dots", cursive;
+  background-color: #1D1E18;
+}
+
+.title {
+  height: 69px;
+  width: 222px;
+  left: 12px;
+  top: 9px;
+  border-radius: 0px;
+  background-color: #1D1E18;
+  border: 1px solid #FFFC31;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.title__name {
+  font-size: 1.3rem;
+  text-align: center;
+  color: #EEF0F2;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3MvX2hlYWQuc2NzcyIsIi4uL3Njc3MvX2Jhc2Uuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFdBQUE7RUFDQSxXQUFBO0VBQ0EsV0FBQTtFQUNBLHNCQUFBO0VBQ0EsZ0NDRlU7RURHVix5QkNOWTtBQ09oQjs7QUZFQTtFQUNJLFlBQUE7RUFDQSxZQUFBO0VBQ0EsVUFBQTtFQUNBLFFBQUE7RUFDQSxrQkFBQTtFQUNBLHlCQ2ZZO0VEZ0JaLHlCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxpQkFBQTtBRUNKOztBRkVBO0VBQ0ksaUJBQUE7RUFDQSxrQkFBQTtFQUNBLGNDdkJXO0FDd0JmIiwiZmlsZSI6InN0eWxlLm1pbi5jc3MifQ== */
