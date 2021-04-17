@@ -24,3 +24,9 @@ body {
     text-align: center;
     color: $color-second;
 }
+
+.my_presentation {
+    border-radius: 0px;
+    background-color: $color-primary;
+    border: 1px solid $color-third;
+}
