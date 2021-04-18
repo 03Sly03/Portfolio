@@ -1,14 +1,20 @@
 /* BASE */
-/* LAYOUT */
 body {
   margin: 0px;
   width: 100%;
-  height: 50%;
-  border: 2px solid blue;
   font-family: "Zen Dots", cursive;
   background-color: #1D1E18; }
 
+/* LAYOUT */
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
 .title {
+  position: absolute;
   height: 69px;
   width: 222px;
   left: 12px;
@@ -25,13 +31,64 @@ body {
   color: #EEF0F2; }
 
 .my_photo {
-  width: 200px; }
+  position: absolute;
+  left: 150px;
+  top: 65px;
+  width: 220px;
+  margin: 0px;
+  border-radius: 50px; }
 
 .my_presentation {
+  width: 84%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.my_presentation {
+  margin: 215px 15px 15px 15px;
+  font-size: 0.55rem;
   height: 116px;
-  width: 338px;
-  left: 13px;
-  top: 195px;
+  width: 100%;
   border-radius: 0px;
   background-color: #1D1E18;
-  border: 1px solid #FFFC31; }
+  border: 1px solid #FFFC31;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px; }
+
+.my_presentation__text {
+  color: #EEF0F2; }
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.projects {
+  font-size: 0.6rem;
+  margin: 65px 20px;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #FFFC31;
+  border-radius: 50px;
+  text-align: center;
+  color: #EEF0F2;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.contact {
+  width: 350px;
+  border: 1px solid #FFFC31;
+  font-size: 0.6rem;
+  text-align: center;
+  margin: 15px;
+  color: #EEF0F2; }

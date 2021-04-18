@@ -1,0 +1,21 @@
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: yellow;
+}
+
+.projects {
+    font-size: 0.6rem;
+    margin: 65px 20px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid $color-third;   
+    border-radius: 50px;
+    text-align: center;
+    color: $color-second;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
