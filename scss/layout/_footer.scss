@@ -1,0 +1,20 @@
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../imgs/social-media4.jpg);
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.contact {
+    width: 350px;
+    border: 1px solid $color-third;
+    font-size: 0.6rem;
+    text-align: center;
+    margin: 15px;
+    color: $color-second;
+    background-color: rgba($color-primary, 0.9);
+}
