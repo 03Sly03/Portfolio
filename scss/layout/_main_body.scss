@@ -3,12 +3,14 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    // background-color: yellow;
+    background-image: url(../../imgs/projets.jpeg);
+    background-size: cover;
+    // background-color: blue;
 }
 
 .projects {
     font-size: 0.6rem;
-    margin: 65px 20px;
+    margin: 70px 20px;
     width: 100px;
     height: 100px;
     border: 2px solid $color-third;   
@@ -18,4 +20,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba($color-primary, 0.9);
+    // opacity: 0.2;
 }
