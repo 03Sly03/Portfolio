@@ -13,56 +13,57 @@ header {
   flex-direction: column;
   background-image: url(../../imgs/fond_competences_web.jpg); }
 
-.bchead {
+.top {
   position: relative;
   width: 375px;
   padding: 5px; }
-
-.title {
-  height: 69px;
-  width: 222px;
-  border-radius: 0px;
-  background-color: rgba(29, 30, 24, 0.8);
-  border: 1px solid #FFFC31;
-  margin-top: 10px;
-  margin-left: 10px; }
-
-.title__name {
-  font-size: 1.3rem;
-  text-align: center;
-  color: #EEF0F2; }
-
-.photo {
-  position: relative;
-  bottom: 10px;
-  left: 120px;
-  width: 220px;
-  margin: 0px; }
-
-.my_photo {
-  width: 100%;
-  border-radius: 70px;
-  border: 2px solid #EEF0F2; }
+  .top__title {
+    height: 69px;
+    width: 222px;
+    border-radius: 0px;
+    background-color: rgba(29, 30, 24, 0.8);
+    border: 1px solid #FFFC31;
+    margin-top: 10px;
+    margin-left: 10px; }
+  .top__title_name {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #EEF0F2; }
+  .top__photo {
+    position: relative;
+    bottom: 10px;
+    left: 120px;
+    width: 220px;
+    margin: 0px; }
+  .top__my_photo {
+    width: 100%;
+    border-radius: 70px;
+    border: 2px solid #EEF0F2; }
+  .top__competence {
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+    text-align: center;
+    color: #EEF0F2;
+    background-color: rgba(29, 30, 24, 0.8);
+    border: 1px solid #FFFC31; }
 
 .presentation {
   display: flex;
-  width: 100%; }
-
-.my_presentation {
-  margin: -35px 15px 0px 15px;
-  font-size: 0.55rem;
   width: 100%;
-  height: 116px;
-  border-radius: 0px;
-  background-color: rgba(29, 30, 24, 0.8);
-  border: 1px solid #FFFC31;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 15px; }
-
-.my_presentation__text {
   color: #EEF0F2; }
+  .presentation__frame {
+    margin: -50px 15px 0px 15px;
+    font-size: 0.55rem;
+    width: 100%;
+    height: 116px;
+    border-radius: 0px;
+    background-color: rgba(29, 30, 24, 0.8);
+    border: 1px solid #FFFC31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px; }
 
 main {
   width: 100%;
@@ -72,7 +73,7 @@ main {
   background-image: url(../../imgs/projets.jpeg);
   background-size: cover; }
 
-.projects {
+.btn_projects {
   font-size: 0.6rem;
   margin: 140px 20px;
   width: 100px;
@@ -95,7 +96,7 @@ footer {
   background-position: center;
   background-size: contain; }
 
-.contact {
+.btn_contact {
   width: 350px;
   border: 1px solid #FFFC31;
   font-size: 0.6rem;
