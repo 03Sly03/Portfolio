@@ -1,7 +1,6 @@
 /* BASE */
 body {
   margin: 0px;
-  width: 100%;
   font-family: "Zen Dots", cursive;
   background-color: #1D1E18; }
 
@@ -73,10 +72,6 @@ footer {
   background-image: url(../../imgs/social-media4.jpg);
   background-position: center;
   background-size: contain; }
-
-button:hover {
-  background-color: #FFFC31;
-  color: #1D1E18; }
 
 .top__competence {
   position: relative;
