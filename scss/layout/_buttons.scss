@@ -1,0 +1,40 @@
+button:hover {
+    background-color: $color-third;
+    color: $color-primary;
+}
+
+.top__competence {
+    position: relative;
+    left: 70px;
+    bottom: 30px;
+    text-align: center;
+    color: $color-second;
+    background-color: rgba($color-primary, 0.8);
+    border: 1px solid $color-third;
+}
+
+.btn_projects {
+    font-size: 0.6rem;
+    margin: 140px 20px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid $color-third;   
+    border-radius: 50px;
+    text-align: center;
+    color: $color-second;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba($color-primary, 0.9);
+    // opacity: 0.2;
+}
+
+.btn_contact {
+    width: 350px;
+    border: 1px solid $color-third;
+    font-size: 0.6rem;
+    text-align: center;
+    margin: 15px;
+    color: $color-second;
+    background-color: rgba($color-primary, 0.9);
+}

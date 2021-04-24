@@ -3,7 +3,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: url("../../imgs/video-head.mp4");
+    background-image: url("../../imgs/fond_competences_web.jpg");
     // background-color: green;
 }
 
@@ -42,15 +42,6 @@ header {
         border: 2px solid $color-second;
     }
 
-    &__competence {
-        position: relative;
-        left: 70px;
-        bottom: 30px;
-        text-align: center;
-        color: $color-second;
-        background-color: rgba($color-primary, 0.8);
-        border: 1px solid $color-third;
-    }
 }
 
 .presentation {

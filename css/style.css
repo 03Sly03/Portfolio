@@ -11,7 +11,7 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-image: url("../../imgs/video-head.mp4"); }
+  background-image: url("../../imgs/fond_competences_web.jpg"); }
 
 .top {
   position: relative;
@@ -39,14 +39,6 @@ header {
     width: 100%;
     border-radius: 70px;
     border: 2px solid #EEF0F2; }
-  .top__competence {
-    position: relative;
-    left: 70px;
-    bottom: 30px;
-    text-align: center;
-    color: #EEF0F2;
-    background-color: rgba(29, 30, 24, 0.8);
-    border: 1px solid #FFFC31; }
 
 .presentation {
   display: flex;
@@ -73,6 +65,28 @@ main {
   background-image: url(../../imgs/projets.jpeg);
   background-size: cover; }
 
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../imgs/social-media4.jpg);
+  background-position: center;
+  background-size: contain; }
+
+button:hover {
+  background-color: #FFFC31;
+  color: #1D1E18; }
+
+.top__competence {
+  position: relative;
+  left: 70px;
+  bottom: 30px;
+  text-align: center;
+  color: #EEF0F2;
+  background-color: rgba(29, 30, 24, 0.8);
+  border: 1px solid #FFFC31; }
+
 .btn_projects {
   font-size: 0.6rem;
   margin: 140px 20px;
@@ -86,15 +100,6 @@ main {
   justify-content: center;
   align-items: center;
   background-color: rgba(29, 30, 24, 0.9); }
-
-footer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../../imgs/social-media4.jpg);
-  background-position: center;
-  background-size: contain; }
 
 .btn_contact {
   width: 350px;
