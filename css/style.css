@@ -42,16 +42,16 @@ header {
     width: 220px;
     border-radius: 70px;
     border: 2px solid #EEF0F2; }
-
-#top__competence-text {
-  font-size: 0.8rem;
-  position: relative;
-  left: 20px;
-  margin: 10px -130px 50px 0px;
-  color: #EEF0F2;
-  background-color: rgba(29, 30, 24, 0.8);
-  border: 1px solid #FFFC31;
-  padding: 10px 60px 0px 0px; }
+  .top__competence-list {
+    list-style-type: none;
+    font-size: 0.8rem;
+    position: relative;
+    left: 20px;
+    margin: 10px -130px 50px 0px;
+    color: #EEF0F2;
+    background-color: rgba(29, 30, 24, 0.8);
+    border: 1px solid #FFFC31;
+    padding: 10px 60px 10px 10px; }
 
 .presentation {
   display: flex;
@@ -78,21 +78,34 @@ header {
     align-items: center;
     flex-direction: column; }
 
-main {
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(../../imgs/projets.jpeg);
   background-size: cover; }
 
-footer {
+.bottom {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-image: url(../../imgs/social-media4.jpg);
   background-position: center;
   background-size: contain; }
+  .bottom__networks {
+    position: relative;
+    bottom: 50px;
+    background-color: rgba(29, 30, 24, 0.9);
+    color: #EEF0F2;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #FFFC31;
+    padding: 5px;
+    width: 200px;
+    list-style-type: none;
+    margin-bottom: -30px; }
 
 .my-btn, .btn-competence, .btn-projects, .btn-contact {
   background-color: rgba(29, 30, 24, 0.8);
@@ -120,7 +133,7 @@ footer {
   align-items: center; }
 
 .btn-contact {
-  width: 400px;
+  width: 350px;
   margin: 15px; }
 
 .btn-read-more {

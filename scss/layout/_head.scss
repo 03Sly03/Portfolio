@@ -35,11 +35,9 @@ header {
         width: 100%;
         margin: 0px;
         display: flex;
-        // background-color: red;
     }
 
     &__my_photo {
-        // width: 100%;
         position: relative;
         bottom: 15px;
         left: 120px;
@@ -48,18 +46,21 @@ header {
         border: 2px solid $color-second;
     }
 
+    &__competence-list {
+        list-style-type: none;
+        font-size: 0.8rem;
+        position: relative;
+        left: 20px;
+        margin: 10px -130px 50px 0px;
+        color: $color-second;
+        background-color: rgba($color-primary, 0.8);
+        border: 1px solid $color-third;
+        padding: 10px 60px 10px 10px;
+    }
+
 }
 
-#top__competence-text {
-    font-size: 0.8rem;
-    position: relative;
-    left: 20px;
-    margin: 10px -130px 50px 0px;
-    color: $color-second;
-    background-color: rgba($color-primary, 0.8);
-    border: 1px solid $color-third;
-    padding: 10px 60px 0px 0px;
-}
+
 
 .presentation {
     display: flex;
