@@ -3,7 +3,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-image: url(../../imgs/projets.jpeg);
     background-size: cover;
     // background-color: blue;
+
+    &__carousel {
+        height: 600px;
+        margin: 15px;
+    }
+}
+
+.carousel-text-title {
+    color: $color-second;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
 }
