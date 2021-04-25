@@ -32,19 +32,33 @@ header {
     }
 
     &__photo {
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        // background-color: red;
+    }
+
+    &__my_photo {
+        // width: 100%;
         position: relative;
         bottom: 15px;
         left: 120px;
         width: 220px;
-        margin: 0px;
-    }
-
-    &__my_photo {
-        width: 100%;
         border-radius: 70px;
         border: 2px solid $color-second;
     }
 
+}
+
+#top__competence-text {
+    font-size: 0.8rem;
+    position: relative;
+    left: 20px;
+    margin: 10px -130px 50px 0px;
+    color: $color-second;
+    background-color: rgba($color-primary, 0.8);
+    border: 1px solid $color-third;
+    padding: 10px 60px 0px 0px;
 }
 
 .presentation {
@@ -53,23 +67,31 @@ header {
     color: $color-second;
 
     &__frame {
-        margin: -40px 15px 15px 15px;
-        font-size: 0.55rem;
+        margin: -30px 15px 0px 15px;
+        font-size: 0.7rem;
+        letter-spacing: 1px;
         width: 100%;
-        height: 100px;
-        border-radius: 0px;
+        height: 130px;
         background-color: rgba($color-primary, 0.8);
         border: 1px solid $color-third;
-        padding: 30px;
+        padding: 20px;
     }
 
     &__my-text {
+        position: relative;
+        bottom: 15px;
         background-color: $color-primary;
         border: 1px solid $color-third;
-        padding: 5px;
+        padding: 10px;
+    }
+
+    &__post-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
-
 
 
 

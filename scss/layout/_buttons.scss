@@ -15,10 +15,11 @@
 
 .btn-competence {
     @extend .my-btn;
+    height: 20px;
     font-size: 0.6rem;
     position: relative;
-    left: 70px;
-    bottom: 30px;  
+    bottom: 20px;
+
 }
 
 .btn-projects {
@@ -39,12 +40,14 @@
 }
 
 .btn-read-more {
+    font-size: 0.7rem;
     background-color: rgba(2555,255,255,0);
     text-decoration: none;
     border: none;
     color: $color-second;
 
     &:hover {
+        font-size: 0.8rem;
         color: $color-third;
     }
 }

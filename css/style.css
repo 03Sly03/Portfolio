@@ -32,33 +32,51 @@ header {
     text-align: center;
     color: #EEF0F2; }
   .top__photo {
+    width: 100%;
+    margin: 0px;
+    display: flex; }
+  .top__my_photo {
     position: relative;
     bottom: 15px;
     left: 120px;
     width: 220px;
-    margin: 0px; }
-  .top__my_photo {
-    width: 100%;
     border-radius: 70px;
     border: 2px solid #EEF0F2; }
+
+#top__competence-text {
+  font-size: 0.8rem;
+  position: relative;
+  left: 20px;
+  margin: 10px -130px 50px 0px;
+  color: #EEF0F2;
+  background-color: rgba(29, 30, 24, 0.8);
+  border: 1px solid #FFFC31;
+  padding: 10px 60px 0px 0px; }
 
 .presentation {
   display: flex;
   width: 100%;
   color: #EEF0F2; }
   .presentation__frame {
-    margin: -40px 15px 15px 15px;
-    font-size: 0.55rem;
+    margin: -30px 15px 0px 15px;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
     width: 100%;
-    height: 100px;
-    border-radius: 0px;
+    height: 130px;
     background-color: rgba(29, 30, 24, 0.8);
     border: 1px solid #FFFC31;
-    padding: 30px; }
+    padding: 20px; }
   .presentation__my-text {
+    position: relative;
+    bottom: 15px;
     background-color: #1D1E18;
     border: 1px solid #FFFC31;
-    padding: 5px; }
+    padding: 10px; }
+  .presentation__post-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
 
 main {
   display: flex;
@@ -87,10 +105,10 @@ footer {
     color: #1D1E18; }
 
 .btn-competence {
+  height: 20px;
   font-size: 0.6rem;
   position: relative;
-  left: 70px;
-  bottom: 30px; }
+  bottom: 20px; }
 
 .btn-projects {
   margin: 140px 20px;
@@ -106,9 +124,11 @@ footer {
   margin: 15px; }
 
 .btn-read-more {
+  font-size: 0.7rem;
   background-color: rgba(255, 255, 255, 0);
   text-decoration: none;
   border: none;
   color: #EEF0F2; }
   .btn-read-more:hover {
+    font-size: 0.8rem;
     color: #FFFC31; }
