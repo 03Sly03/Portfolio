@@ -28,10 +28,22 @@
                 <li class="nav-item">
                     <a href="#comp" class="nav-link">Compétences</a>
                 </li>
-                <li>
-                    <a href="#projects" class="nav-link">Projets</a>
+                <li class="nav-item">
+                    <!-- <a href="#projects" class="nav-link">Projets</a> -->
+
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle nav-btn nav-link" href="#" role="button"
+                            id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Projets
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">TP - Schowtrack</a>
+                            <a class="dropdown-item" href="#">Calculatrice</a>
+                            <a class="dropdown-item" href="#">Chuck Norris</a>
+                        </div>
+                    </div>
                 </li>
-                <li>
+                <li class="nav-item">
                     <a href="#contact" class="nav-link">Contact</a>
                 </li>
             </ul>
@@ -51,27 +63,31 @@
                         <ul class="top__competence-list">
                             <li>Html</li>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                             <li>Css</li>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                             <li>Python</li>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 33%" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
+                                <div class="progress-bar" role="progressbar" style="width: 33%" aria-valuenow="33"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                             <li>Javascript</li>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
+                                <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </ul>
                     </div>
-                    
+
                 </div>
                 <img src="imgs/photo_de_moi.jpg" alt="" class="top__my_photo">
-                <button class="btn-competence" id="comp" type="button" data-toggle="collapse" data-target="#top__competence-text"
-                    aria-expanded="false" aria-controls="top__competence-text">
+                <button class="btn-competence" id="comp" type="button" data-toggle="collapse"
+                    data-target="#top__competence-text" aria-expanded="false" aria-controls="top__competence-text">
                     Compétences
                 </button>
             </div>
@@ -80,16 +96,16 @@
         <div class="presentation">
             <div class="presentation__frame">
                 <div class="presentation__post-text">
-                <p>Créatif, je me forme à être capable, de créer des sites web
-                    et des applications mobile pour des clients de premier plan aux demandes et visions
-                    complexes...</p>
-                
-                <div class="presentation__btn-text">
-                    <button class="btn-read-more" type="button" data-toggle="collapse"
-                    data-target="#presentation__text" aria-expanded="false" aria-controls="presentation__text">
-                    Lire plus
-                    </button>
-                </div>
+                    <p>Créatif, je me forme à être capable, de créer des sites web
+                        et des applications mobile pour des clients de premier plan aux demandes et visions
+                        complexes...</p>
+
+                    <div class="presentation__btn-text">
+                        <button class="btn-read-more" type="button" data-toggle="collapse"
+                            data-target="#presentation__text" aria-expanded="false" aria-controls="presentation__text">
+                            Lire plus
+                        </button>
+                    </div>
                 </div>
                 <div class="collapse" id="presentation__text">
                     <div>
@@ -106,53 +122,57 @@
     <main>
         <div class="container-fluid main">
             <div class="main__button">
-            <button class="btn-projects" id="projects" type="button" data-toggle="collapse"
-            data-target="#carousel" aria-expanded="false" aria-controls="carousel">Projets</button>
+                <button class="btn-projects" id="projects" type="button" data-toggle="collapse" data-target="#carousel"
+                    aria-expanded="false" aria-controls="carousel">Projets</button>
             </div>
             <div class="collapse" id="carousel">
-        <div class="main__carousel">
-            <button class="btn-projects btn-projects-mini" id="projects" type="button" data-toggle="collapse"
-            data-target="#carousel" aria-expanded="false" aria-controls="carousel">Projets</button>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="#"><img class="d-block w-100" src="imgs/showtrack.png" alt="First slide"></a>
-                    <div class="carousel-text-title">
-                        <h5>TP - SHOWTRACK</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, sequi!</p>
+                <div class="main__carousel">
+                    <button class="btn-projects btn-projects-mini" id="projects" type="button" data-toggle="collapse"
+                        data-target="#carousel" aria-expanded="false" aria-controls="carousel">Projets</button>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="#"><img class="d-block w-100" src="imgs/showtrack.png" alt="First slide"></a>
+                                <div class="carousel-text-title">
+                                    <h5>TP - SHOWTRACK</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, sequi!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="projets/TP---La-calculatrice/index.html" target="_blank"><img
+                                        class="d-block w-100" src="imgs/calculator.png" alt="Second slide"></a>
+                                <div class="carousel-text-title">
+                                    <h5>CALCULATRICE</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, sequi!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="projets/TpChuck/index.html" target="_blank"><img class="d-block w-100"
+                                        src="imgs/chuck.png" alt="Third slide"></a>
+                                <div class="carousel-text-title">
+                                    <h5>CHUCK NORRIS</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, sequi!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
-                  <div class="carousel-item">
-                    <a href="projets/TP---La-calculatrice/index.html" target="_blank"><img class="d-block w-100" src="imgs/calculator.png" alt="Second slide"></a>
-                    <div class="carousel-text-title">
-                        <h5>CALCULATRICE</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, sequi!</p>
-                    </div>
-                </div>
-                  <div class="carousel-item">
-                    <a href="projets/TpChuck/index.html" target="_blank"><img class="d-block w-100" src="imgs/chuck.png" alt="Third slide"></a>
-                    <div class="carousel-text-title">
-                        <h5>CHUCK NORRIS</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, sequi!</p>
-                    </div>
-                </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
             </div>
-        </div>
-    </div>
         </div>
 
     </main>
@@ -170,7 +190,7 @@
             </button>
         </div>
     </footer>
-    
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>

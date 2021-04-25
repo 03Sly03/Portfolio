@@ -170,3 +170,7 @@ header {
   .btn-read-more:hover {
     font-size: 0.8rem;
     color: #FFFC31; }
+
+.nav-btn {
+  border: none;
+  background-color: rgba(50, 50, 50, 0); }
