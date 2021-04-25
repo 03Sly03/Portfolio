@@ -7,6 +7,10 @@ header {
     // background-color: green;
 }
 
+%skin {
+    background-color: rgba($color-primary, 0.8);
+}
+
 .top {
     position: relative;
     width: 375px;
@@ -44,6 +48,10 @@ header {
         width: 220px;
         border-radius: 70px;
         border: 2px solid $color-second;
+
+        &:hover {
+            width: 250px;
+        }
     }
 
     &__competence-list {

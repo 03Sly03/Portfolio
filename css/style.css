@@ -42,6 +42,8 @@ header {
     width: 220px;
     border-radius: 70px;
     border: 2px solid #EEF0F2; }
+    .top__my_photo:hover {
+      width: 250px; }
   .top__competence-list {
     list-style-type: none;
     font-size: 0.8rem;
@@ -122,13 +124,14 @@ header {
     list-style-type: none;
     margin-bottom: -30px; }
 
-.my-btn, .btn-competence, .btn-projects, .btn-contact {
+.my-btn, .btn-competence, .btn-projects, .btn-projects-mini, .btn-contact {
   background-color: rgba(29, 30, 24, 0.8);
   color: #EEF0F2;
   text-align: center;
   border: 1px solid #FFFC31;
+  border-radius: 10px 0;
   font-size: 1.2rem; }
-  .my-btn:hover, .btn-competence:hover, .btn-projects:hover, .btn-contact:hover {
+  .my-btn:hover, .btn-competence:hover, .btn-projects:hover, .btn-projects-mini:hover, .btn-contact:hover {
     background-color: #FFFC31;
     color: #1D1E18; }
 

@@ -5,6 +5,7 @@
     color: $color-second;
     text-align: center;
     border: 1px solid $color-third;
+    border-radius: 10px 0;
     font-size: 1.2rem;
 
     &:hover {
@@ -35,6 +36,7 @@
 }
 
 .btn-projects-mini {
+    @extend .my-btn;
     position: relative;
     top: 10px;
     right: 30px;
