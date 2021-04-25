@@ -1,40 +1,50 @@
-// button:hover {
-//     background-color: $color-third;
-//     color: $color-primary;
-// }
 
-.top__competence {
-    position: relative;
-    left: 70px;
-    bottom: 30px;
-    text-align: center;
-    color: $color-second;
+
+.my-btn {
     background-color: rgba($color-primary, 0.8);
+    color: $color-second;
+    text-align: center;
     border: 1px solid $color-third;
+    font-size: 1.2rem;
+
+    &:hover {
+        background-color: $color-third;
+        color: $color-primary;
+    }
 }
 
-.btn_projects {
+.btn-competence {
+    @extend .my-btn;
     font-size: 0.6rem;
+    position: relative;
+    left: 70px;
+    bottom: 30px;  
+}
+
+.btn-projects {
+    @extend .my-btn;
     margin: 140px 20px;
     width: 100px;
-    height: 100px;
-    border: 2px solid $color-third;   
+    height: 100px;   
     border-radius: 50px;
-    text-align: center;
-    color: $color-second;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba($color-primary, 0.9);
-    // opacity: 0.2;
 }
 
-.btn_contact {
-    width: 350px;
-    border: 1px solid $color-third;
-    font-size: 0.6rem;
-    text-align: center;
+.btn-contact {
+    @extend .my-btn;
+    width: 400px;
     margin: 15px;
+}
+
+.btn-read-more {
+    background-color: rgba(2555,255,255,0);
+    text-decoration: none;
+    border: none;
     color: $color-second;
-    background-color: rgba($color-primary, 0.9);
+
+    &:hover {
+        color: $color-third;
+    }
 }
