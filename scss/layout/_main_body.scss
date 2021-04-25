@@ -9,6 +9,8 @@
     // background-color: blue;
 
     &__carousel {
+        position: relative;
+        bottom: 350px;
         height: 600px;
         margin: 15px;
     }
