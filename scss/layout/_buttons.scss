@@ -1,4 +1,4 @@
-
+@import '../libs/responsive.scss';
 
 .my-btn {
     background-color: rgba($color-primary, 0.8);
@@ -20,8 +20,8 @@
     font-size: 0.6rem;
     position: relative;
     bottom: 20px;
-
 }
+
 
 .btn-projects {
     @extend .my-btn;
@@ -32,8 +32,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 
 .btn-projects-mini {
     @extend .my-btn;
@@ -64,4 +64,19 @@
         font-size: 0.8rem;
         color: $color-third;
     }
+}
+
+@media #{$small} {
+    .btn-competence {
+        height: 30px;
+        font-size: 1rem;
+        bottom: 0px;
+        top: 0px;
+        margin: 30px;
+    }
+
+    .btn-projects {
+        display: none;
+    }
+
 }
