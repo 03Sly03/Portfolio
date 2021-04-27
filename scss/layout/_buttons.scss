@@ -66,6 +66,11 @@
     }
 }
 
+.btn-submit {
+    margin: 10px;
+    @extend .my-btn
+}
+
 @media #{$small} {
     .btn-competence {
         height: 40px;

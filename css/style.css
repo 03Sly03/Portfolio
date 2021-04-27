@@ -207,14 +207,14 @@ header {
     list-style-type: none;
     margin-bottom: -30px; }
 
-.my-btn, .btn-competence, .btn-projects, .btn-projects-mini, .btn-contact {
+.my-btn, .btn-competence, .btn-projects, .btn-projects-mini, .btn-contact, .btn-submit {
   background-color: rgba(29, 30, 24, 0.8);
   color: #EEF0F2;
   text-align: center;
   border: 1px solid #FFFC31;
   border-radius: 10px 0;
   font-size: 1.2rem; }
-  .my-btn:hover, .btn-competence:hover, .btn-projects:hover, .btn-projects-mini:hover, .btn-contact:hover {
+  .my-btn:hover, .btn-competence:hover, .btn-projects:hover, .btn-projects-mini:hover, .btn-contact:hover, .btn-submit:hover {
     background-color: #FFFC31;
     color: #1D1E18; }
 
@@ -257,6 +257,9 @@ header {
     font-size: 0.8rem;
     color: #FFFC31; }
 
+.btn-submit {
+  margin: 10px; }
+
 @media screen and (min-width: 768px) {
   .btn-competence {
     height: 40px;
@@ -274,5 +277,20 @@ header {
 .nav-btn {
   border: none;
   background-color: rgba(50, 50, 50, 0); }
+
+.my-forms {
+  width: 100%; }
+
+.my-forms-frame {
+  margin: 15px 0;
+  padding: 15px;
+  color: #EEF0F2;
+  background-color: rgba(29, 30, 24, 0.8);
+  border: 1px solid #FFFC31;
+  width: 100%; }
+
+@media screen and (max-width: 767px) {
+  .my-forms {
+    display: none; } }
 
 /* RESPONSIVE */
