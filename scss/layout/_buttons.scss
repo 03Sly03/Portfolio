@@ -79,3 +79,9 @@
         display: none;
     }
 }
+
+@media #{$big} {
+    .btn-competence {
+        display: none;
+    }
+}

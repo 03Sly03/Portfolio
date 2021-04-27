@@ -8,3 +8,12 @@ body {
     font-family: $font-family;
     background-color: $color-primary;
 }
+
+@import 'libs/responsive.scss';
+
+@media #{$big} {
+    .global {
+        margin: 0;
+        display: flex;
+    }
+}
