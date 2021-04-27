@@ -68,15 +68,14 @@
 
 @media #{$small} {
     .btn-competence {
-        height: 30px;
+        height: 40px;
         font-size: 1rem;
         bottom: 0px;
         top: 0px;
-        margin: 30px;
+        margin: 50px;
     }
 
-    .btn-projects {
+    .main__button {
         display: none;
     }
-
 }

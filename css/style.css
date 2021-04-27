@@ -53,23 +53,6 @@ header {
     border: 1px solid #FFFC31;
     padding: 10px 60px 10px 10px; }
 
-@media screen and (min-width: 768px) and (max-width: 1050px) {
-  .top {
-    width: 100%;
-    background-color: red; }
-    .top__photo {
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      background-color: yellow; }
-    .top__competence-list {
-      color: black;
-      font-size: 1rem;
-      margin: 50px 0px 50px 0px; }
-    .top__my_photo {
-      bottom: 0;
-      left: 0; } }
-
 .presentation {
   display: flex;
   width: 100%;
@@ -97,6 +80,26 @@ header {
     border: 1px solid #FFFC31;
     padding: 10px; }
 
+@media screen and (min-width: 768px) {
+  .top {
+    width: 100%; }
+    .top__photo {
+      justify-content: center;
+      align-items: center; }
+    .top__competence-list {
+      font-size: 1rem;
+      margin: 50px 0px 50px 0px; }
+    .top__my_photo {
+      bottom: 0;
+      left: 0; }
+  .presentation {
+    justify-content: center; }
+    .presentation__frame {
+      width: 600px; }
+    .presentation__post-text {
+      bottom: 0;
+      padding: 15px; } }
+
 .main {
   display: flex;
   justify-content: center;
@@ -104,10 +107,15 @@ header {
   flex-direction: column;
   background-image: url(../../imgs/projets.jpeg);
   background-size: cover; }
+  .main__carousel1 {
+    top: 100px;
+    width: 450px;
+    height: 800px;
+    margin: 100px; }
   .main__carousel {
     position: relative;
     bottom: 350px;
-    height: 400px;
+    height: 100px;
     margin: 15px; }
 
 .carousel-text-title {
@@ -116,6 +124,10 @@ header {
   justify-content: center;
   flex-direction: column;
   margin: 30px; }
+
+@media screen and (min-width: 768px) {
+  .main__carousel {
+    display: none; } }
 
 @media screen and (max-width: 767px) {
   .main__carousel1 {
@@ -193,14 +205,14 @@ header {
     font-size: 0.8rem;
     color: #FFFC31; }
 
-@media screen and (min-width: 768px) and (max-width: 1050px) {
+@media screen and (min-width: 768px) {
   .btn-competence {
-    height: 30px;
+    height: 40px;
     font-size: 1rem;
     bottom: 0px;
     top: 0px;
-    margin: 30px; }
-  .btn-projects {
+    margin: 50px; }
+  .main__button {
     display: none; } }
 
 .nav-btn {

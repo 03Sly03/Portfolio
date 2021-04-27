@@ -10,10 +10,18 @@
     background-size: cover;
     // background-color: blue;
 
+    &__carousel1 {
+        top: 100px;
+        width: 450px;
+        height: 800px;
+        margin: 100px;
+
+    }
+
     &__carousel {
         position: relative;
         bottom: 350px;
-        height: 400px;
+        height: 100px;
         margin: 15px;
     }
 }
@@ -26,6 +34,11 @@
     margin: 30px;
 }
 
+@media #{$small} {
+    .main__carousel {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 767px) {
 
