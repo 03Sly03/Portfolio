@@ -9,6 +9,11 @@ body {
     background-color: $color-primary;
 }
 
+.global {
+    width: 100%;
+    margin: 0;
+}
+
 @import 'libs/responsive.scss';
 
 @media #{$big} {

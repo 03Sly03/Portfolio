@@ -1,11 +1,12 @@
 @import '../libs/responsive.scss';
 
 .my-forms {
+    height: 360px;
     width: 100%;
+    background-image: url(../../imgs/projets.jpeg);
 }
 
 .my-forms-frame {
-    margin: 15px 0;
     padding: 15px;
     color: $color-second;
     background-color: rgba($color-primary,0.8);

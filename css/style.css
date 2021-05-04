@@ -4,6 +4,10 @@ body {
   font-family: "Zen Dots", cursive;
   background-color: #1D1E18; }
 
+.global {
+  width: 100%;
+  margin: 0; }
+
 @media screen and (min-width: 1050px) {
   .global {
     margin: 0;
@@ -15,7 +19,10 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-image: url("../../imgs/fond_competences_web.jpg"); }
+  background-image: url("../../imgs/fond_competences_web.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 .top {
   position: relative;
@@ -147,6 +154,7 @@ header {
     right: 30px; } }
 
 .main {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,7 +169,7 @@ header {
   .main__carousel {
     position: relative;
     bottom: 350px;
-    height: 100px;
+    height: 325px;
     margin: 15px; }
 
 .carousel-text-title {
@@ -191,7 +199,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(../../imgs/social-media4.jpg);
+  background-image: url(../../imgs/social-mediaori.jpg);
   background-position: center;
   background-size: contain; }
   .bottom__networks {
@@ -279,10 +287,11 @@ header {
   background-color: rgba(50, 50, 50, 0); }
 
 .my-forms {
-  width: 100%; }
+  height: 360px;
+  width: 100%;
+  background-image: url(../../imgs/projets.jpeg); }
 
 .my-forms-frame {
-  margin: 15px 0;
   padding: 15px;
   color: #EEF0F2;
   background-color: rgba(29, 30, 24, 0.8);

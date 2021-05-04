@@ -1,7 +1,7 @@
 @import '../libs/responsive.scss';
 
 .main {
-    // width: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@
     &__carousel {
         position: relative;
         bottom: 350px;
-        height: 100px;
+        height: 325px;
         margin: 15px;
     }
 }
